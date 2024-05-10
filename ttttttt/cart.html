@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Add Product to Cart</h1>
+    <form id="product-form">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName"><br><br>
+        <label for="Category">Category:</label>
+        <input type="text" id="Category" name="Category"><br><br>
+        <label for="Price">Price:</label>
+        <input type="number" id="Price" name="Price"><br><br>
+        <button id="addtocartButton">Add to Cart</button>
+    </form>
+
+    <div id="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <button id="checkoutButton">Checkout</button>
+    </div>
+
+    <script src="add.js"></script>
+</body>
+</html>
